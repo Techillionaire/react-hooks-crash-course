@@ -1,10 +1,12 @@
+import ReducerTutorial from "./components/ReducerTutorial";
 import StateTutorial from "./components/StateTutorial";
 
 
 
 function App() {
   return (
-    <StateTutorial />
+    // <StateTutorial />
+    <ReducerTutorial />
   );
 }
 
