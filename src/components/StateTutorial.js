@@ -2,17 +2,16 @@ import React, { useState } from 'react'
 
 const StateTutorial = () => {
 
-    const [inputValue, setInputValue] = useState("Pedro")
+    const [counter, setCounter] = useState(0);
 
-    let onChange = (event) => {
-        const newValue = event.target.value;
-        setInputValue(newValue);
+    const onClick = () => {
+        setCounter(counter + 1);
     }
     
     return (
         <div>
-            <input placeholder="enter something ..." onChange={onChange}/>
-            {inputValue}
+            {counter}
+            <button onClick={onClick} >Increment</button>
         </div>
     )
 }

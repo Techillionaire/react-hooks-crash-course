@@ -5,8 +5,8 @@ import StateTutorial from "./components/StateTutorial";
 
 function App() {
   return (
-    // <StateTutorial />
-    <ReducerTutorial />
+    <StateTutorial />
+    // <ReducerTutorial />
   );
 }
 
